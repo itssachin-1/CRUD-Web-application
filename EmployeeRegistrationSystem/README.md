@@ -1,14 +1,9 @@
-# CreateEmployee
-$ mysql -u root -p
+# Employee Registraion System
+It has functionality of creating an employee, showing list of employeee and Searching employee.
+Update and Delete functionality will be implimented later. Working on it..
 
-Password: root
+## Screenshots
 
-mysql> create database emp_database;
-
-mysql> use emp_database;
-
-mysql> create table employee (id integer not null auto_increment, name varchar(255), age integer, gender varchar(255), joining_date date, retiring_date date, dept varchar(255), primary key (id));
-
-
-mysql> insert into employee (name, age, gender, joining_date, retiring_date, dept) values ('Jackson', 20, 'Male', '2019-01-22',  '2020-08-31','IT'),('Jennie', 30, 'Female', '2019-01-22',  '2020-07-31','Sales'),('Rose', 25, 'Female', '2019-01-22',  '2020-09-30','HR'),('Jungkook', 33, 'Male', '2019-01-22',  '2020-05-22','IT'),('RM', 40, 'Male', '2019-01-22',  '2020-06-23','IT'),('Jisoo', 28, 'Female', '2019-01-22',  '2020-09-15','Sales'),('Lisa', 24, 'Female', '2019-01-22',  '2020-10-31','HR'),('Jin', 29, 'Male', '2019-01-22',  '2020-11-09','IT'),('Suga', 38, 'Male', '2019-01-22',  '2020-08-31','IT'),('Jimin', 32, 'Male', '2019-01-22',  '2020-08-21','Sales'),('Jhope', 27, 'Male', '2019-01-22',  '2020-02-28','HR');
-
+![Screenshot 2022-09-17 at 2 42 08 PM](https://user-images.githubusercontent.com/30619972/190850773-07d2e3f8-9b8c-4e62-80f3-4500914d8a6a.png)
+![Screenshot 2022-09-17 at 2 44 02 PM](https://user-images.githubusercontent.com/30619972/190850776-92477b11-5c50-4cb1-b7b1-94a38472ee07.png)
+![Screenshot 2022-09-17 at 2 44 13 PM](https://user-images.githubusercontent.com/30619972/190850778-b6c70c60-ba9a-4155-ba80-55773a192773.png)
